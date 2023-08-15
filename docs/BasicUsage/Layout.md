@@ -96,7 +96,7 @@ const formSchema: LayoutSchema = {
 **TODO(Next Version)**
 
 <script setup>
-  import ContainerDemo from '../../examples/BasicUsage/Layout/Container.vue'
-  import ListDemo from '../../examples/BasicUsage/Layout/List.vue'
-  import NestDemo from '../../examples/BasicUsage/Layout/Nest.vue'
+  import ContainerDemo from '../packages/BasicUsage/Layout/Container.vue'
+  import ListDemo from '../packages/BasicUsage/Layout/List.vue'
+  import NestDemo from '../packages/BasicUsage/Layout/Nest.vue'
 </script>

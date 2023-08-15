@@ -1,7 +1,7 @@
 
 <script setup>
-  import ContainerDemo from '../../examples/BasicUsage/Association/Editable.vue'
-  import VisibleDemo from '../../examples/BasicUsage/Association/Visible.vue'
+  import ContainerDemo from '../packages/BasicUsage/Association/Editable.vue'
+  import VisibleDemo from '../packages/BasicUsage/Association/Visible.vue'
 </script>
 
 # 表单联动
