@@ -5,14 +5,14 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig({
   title: "vue-formula",
   description: "vue-formula doc",
-  // base: '/vue-formula-doc/',
+  base: '/vue-formula-doc/',
   vite: {
     plugins: [
       vueJsx({}),
     ],
-    // ssr: {
-    //   noExternal: ['vue-formula', 'RenderItem', 'vue', 'element-plus']
-    // }
+    ssr: {
+      noExternal: ['vue-formula', 'RenderItem', 'vue', 'element-plus']
+    }
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
