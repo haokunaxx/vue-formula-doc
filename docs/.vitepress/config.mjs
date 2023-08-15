@@ -5,7 +5,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig({
   title: "vue-formula",
   description: "vue-formula doc",
-  base: '/vue-formula-doc/',
+  // base: '/vue-formula-doc/',
   vite: {
     plugins: [
       vueJsx({}),
